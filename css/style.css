@@ -1,0 +1,90 @@
+/*#F5FDC6
+#F5C396
+#D0B17A
+#A89F68
+#41521F*/
+
+
+.header{
+background-color: #F5FDC6
+}
+.navbar{ 
+
+}
+.header img {
+    width: 150px;
+    padding: 15px;
+    justify-content: flex-start;
+
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+}
+
+.header li, .footer li{
+    margin: 30px;
+}
+
+.header a, .footer a{
+    color:#41521F ;
+    text-decoration: none;
+}
+
+.header a:hover, .footer a:hover{
+    color:#F5C396 ;
+    font-weight: bold;
+}
+
+
+
+.imagenHerbo {
+    background-image: url('../img/herbolaria.jpg');
+
+background-size: cover;
+
+width: 100%;
+
+height: 300px;
+}
+
+.footer{
+    background-color: #F5FDC6;
+}
+.footer ul{
+    display: flex;
+    list-style: none;
+    width: 450px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+main{
+    min-height: 80vh;
+}
+
+.bloque {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    line-height: 50px;
+    margin: 30px 40px 5px 40px;
+}
+   
+.grid-container{
+    max-width: 850px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+}
+.grid-container div{
+    width: 250px;
+    overflow: hidden;
+}
+.grid-container img{
+    height: 300px;
+}
+
