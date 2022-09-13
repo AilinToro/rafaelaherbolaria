@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './variables/extend';
+
+@import './secciones/header';
+@import './secciones/footer';
+@import './secciones/mainindex';
+@import './secciones/mainproductos';
+@import './secciones/mainofertas';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Petit+Formal+Script&family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Handlee&family=Petit+Formal+Script&family=Poiret+One&display=swap');

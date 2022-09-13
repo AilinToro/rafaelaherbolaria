@@ -1,0 +1,15 @@
+%estiloParrafo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    line-height: 50px;
+    margin: 30px 40px 5px 40px;
+
+}
+
+//Mixin
+@mixin fontStyle {
+    background-color: aquamarine;
+    color: coral;
+    text-transform: inherit;
+    
+}

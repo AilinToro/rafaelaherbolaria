@@ -1,0 +1,3 @@
+- Se agregaron los titulos correspondientes a cada pagina.
+- Se agrego la etiqueta meta keywords en index, contactos, nosotros, ofertas, productos.
+- Se agrego la etiqueta meta description, en index, contactos, nosotros, ofertas, productos

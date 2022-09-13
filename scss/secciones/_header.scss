@@ -1,0 +1,41 @@
+.header{
+    background-color: #F5FDC6;
+    font-weight: bold;
+    text-decoration: none;
+    a{
+        color:#41521F
+        
+    }
+
+    navbar-brand{
+
+        img{
+            width: 150px;
+            padding: 15px;
+            justify-content: flex-start;
+
+        }
+
+
+        ul{
+            list-style: none;
+            display: flex;
+
+
+            li{
+                margin: 30px;
+
+
+            }
+        }
+    }
+}
+
+.banner{
+    font-family: 'Rochester', cursive;
+    text-align: center;
+
+}
+.textnosotros{
+    @include fontStyle;
+}
