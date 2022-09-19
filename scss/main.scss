@@ -5,12 +5,16 @@
 }
 
 @import './variables/extend';
+@import './variables/mixin';
+
 
 @import './secciones/header';
-@import './secciones/footer';
 @import './secciones/mainindex';
 @import './secciones/mainproductos';
 @import './secciones/mainofertas';
+@import './secciones/mainnosotros';
+@import './secciones/maincontactos';
+@import './secciones/footer';
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');

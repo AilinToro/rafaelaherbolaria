@@ -1,15 +1,22 @@
 %estiloParrafo{
+    display: flex;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: inline-block;
-    line-height: 50px;
-    margin: 30px 40px 5px 40px;
-
+    display: flex;
+    margin: 0 auto;
 }
 
-//Mixin
-@mixin fontStyle {
-    background-color: aquamarine;
-    color: coral;
-    text-transform: inherit;
-    
-}
+
+%estiloHeader1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    %estiloHeader2{
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+            margin: 0 auto;
+        }
+            

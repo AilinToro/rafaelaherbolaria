@@ -1,0 +1,5 @@
+.texto1{
+    @extend %estiloHeader1;
+    @include fontStyle;
+
+}

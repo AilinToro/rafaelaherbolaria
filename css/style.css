@@ -8,6 +8,18 @@
   padding: 0;
   box-sizing: border-box; }
 
+.texto1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; }
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto; }
+
 .header {
   background-color: #F5FDC6;
   font-weight: bold;
@@ -29,23 +41,11 @@
   text-align: center; }
 
 .textnosotros {
-  background-color: aquamarine;
-  color: coral;
-  text-transform: inherit; }
-
-.footer {
   background-color: #F5FDC6;
-  font-weight: bold; }
-  .footer ul {
-    display: flex;
-    list-style: none;
-    width: 450px;
-    margin: 0 auto;
-    justify-content: center; }
-    .footer ul li {
-      background-color: #41521F;
-      margin: 30px;
-      text-decoration: none; }
+  color: #41521F;
+  text-align: center;
+  margin: 5rem;
+  padding: 5rem; }
 
 .imagenHerbo {
   background-image: url("../img/herbolaria.jpg");
@@ -67,3 +67,21 @@
 .card-text {
   font-family: 'Handlee', cursive;
   font-size: 20px; }
+
+.texto1 {
+  background-color: #F5FDC6;
+  color: #41521F;
+  text-align: center;
+  margin: 5rem;
+  padding: 5rem; }
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto; }
+
+.footer {
+  background-color: #F5FDC6;
+  font-weight: bold;
+  width: 100%;
+  padding: 5rem; }
